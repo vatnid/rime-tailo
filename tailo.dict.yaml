@@ -7,21 +7,19 @@
 
 ---
 name: tailo
-version: '0.9'
+version: 2020.08.02
 sort: original
 ...
 
 a	a1
 á	a2
 à	a3
-ah	ah4
 â	a5
 ǎ	a6
 ā	a7
-a̍h	ah8
-a̍h	ahh
 a̍	a8
 a̋	a9
+
 ann	ann1
 ánn	ann2
 ànn	ann3
@@ -29,6 +27,15 @@ ann	ann1
 ǎnn	ann6
 ānn	ann7
 a̋nn	ann9
+
+aⁿ	annn1
+áⁿ	annn2
+àⁿ	annn3
+âⁿ	annn5
+ǎⁿ	annn6
+āⁿ	annn7
+a̋ⁿ	annn9
+
 am 	am1
 am	am1
 ám	am2
@@ -60,9 +67,17 @@ a̍t	att
 ak	ak4
 a̍k	ak8
 a̍k	akk
+ah	ah4
+a̍h	ah8
+a̍h	ahh
+
 annh	annh4
 a̍nnh	annh8
 a̍nnh	annhh
+
+ahⁿ	ahnn4
+a̍hⁿ	ahnn8
+
 ai	ai1
 ái	ai2
 ài	ai3
@@ -70,6 +85,7 @@ ai	ai1
 ǎi	ai6
 āi	ai7
 a̋i	ai9
+
 ainn	ainn1
 áinn	ainn2
 àinn	ainn3
@@ -77,12 +93,26 @@ ainn	ainn1
 ǎinn	ainn6
 āinn	ainn7
 a̋inn	ainn9
+
+aiⁿ	ainnn1
+áiⁿ	ainnn2
+àiⁿ	ainnn3
+âiⁿ	ainnn5
+ǎiⁿ	ainnn6
+āiⁿ	ainnn7
+a̋iⁿ	ainnn9
+
 aih	aih4
 a̍ih	aih8
 a̍ih	aihh
+
 ainnh	ainnh4
 a̍innh	ainnh8
 a̍innh	ainnhh
+
+aihⁿ	aihnn4
+a̍ihⁿ	aihnn8
+
 au	au1
 áu	au2
 àu	au3
@@ -101,6 +131,7 @@ e	e1
 ē	e7
 e̍	e8
 e̋	e9
+
 enn	enn1
 énn	enn2
 ènn	enn3
@@ -108,12 +139,38 @@ enn	enn1
 ěnn	enn6
 ēnn	enn7
 e̋nn	enn9
+
+eng	eng1
+éng	eng2
+èng	eng3
+êng	eng5
+ěng	eng6
+ēng	eng7
+e̋ng	eng9
+
+eⁿ	ennn1
+éⁿ	ennn2
+èⁿ	ennn3
+êⁿ	ennn5
+ěⁿ	ennn6
+ēⁿ	ennn7
+e̋ⁿ	ennn9
+
 eh	eh4
 e̍h	eh8
 e̍h	ehh
+
+ek	ek4
+e̍k	ek8
+e̍k	ekk
+
 ennh	ennh4
 e̍nnh	ennh8
 e̍nnh	ennhh
+
+ehⁿ	ehnn4
+e̍hⁿ	ehnn8
+
 i	i1
 í	i2
 ì	i3
@@ -122,6 +179,7 @@ i	i1
 ī	i7
 i̍	i8
 i̋	i9
+
 inn	inn1
 ínn	inn2
 ìnn	inn3
@@ -129,6 +187,15 @@ inn	inn1
 ǐnn	inn6
 īnn	inn7
 i̋nn	inn9
+
+iⁿ	innn1
+íⁿ	innn2
+ìⁿ	innn3
+îⁿ	innn5
+ǐⁿ	innn6
+īⁿ	innn7
+i̋ⁿ	innn9
+
 im	im1
 ím	im2
 ìm	im3
@@ -162,9 +229,14 @@ i̍k	ikk
 ih	ih4
 i̍h	ih8
 i̍h	ihh
+
 innh	innh4
 i̍nnh	innh8
 i̍nnh	innhh
+
+ihⁿ	ihnn4
+i̍hⁿ	ihnn8
+
 ia	ia1
 iá	ia2
 ià	ia3
@@ -172,6 +244,7 @@ iâ	ia5
 iǎ	ia6
 iā	ia7
 ia̋	ia9
+
 iann	iann1
 iánn	iann2
 iànn	iann3
@@ -179,6 +252,23 @@ iânn	iann5
 iǎnn	iann6
 iānn	iann7
 ia̋nn	iann9
+
+iann	iann1
+iánn	iann2
+iànn	iann3
+iânn	iann5
+iǎnn	iann6
+iānn	iann7
+ia̋nn	iann9
+
+iaⁿ	iannn1
+iáⁿ	iannn2
+iàⁿ	iannn3
+iâⁿ	iannn5
+iǎⁿ	iannn6
+iāⁿ	iannn7
+ia̋ⁿ	iannn9
+
 iam	iam1
 iám	iam2
 iàm	iam3
@@ -212,9 +302,14 @@ ia̍k	iakk
 iah	iah4
 ia̍h	iah8
 ia̍h	iahh
+
 iannh	iannh4
 ia̍nnh	iannh8
 ia̍nnh	iannhh
+
+iahⁿ	iahnn4
+ia̍hⁿ	iahnn8
+
 iau	iau1
 iáu	iau2
 iàu	iau3
@@ -222,6 +317,7 @@ iâu	iau5
 iǎu	iau6
 iāu	iau7
 ia̋u	iau9
+
 iaunn	iaunn1
 iáunn	iaunn2
 iàunn	iaunn3
@@ -229,6 +325,15 @@ iâunn	iaunn5
 iǎunn	iaunn6
 iāunn	iaunn7
 ia̋unn	iaunn9
+
+iauⁿ	iaunnn1
+iáuⁿ	iaunnn2
+iàuⁿ	iaunnn3
+iâuⁿ	iaunnn5
+iǎuⁿ	iaunnn6
+iāuⁿ	iaunnn7
+ia̋uⁿ	iaunnn9
+
 iauh	iauh4
 ia̍uh	iauh8
 ia̍uh	iauhh
@@ -259,6 +364,7 @@ iû	iu5
 iǔ	iu6
 iū	iu7
 iű	iu9
+
 iunn	iunn1
 iúnn	iunn2
 iùnn	iunn3
@@ -266,12 +372,26 @@ iûnn	iunn5
 iǔnn	iunn6
 iūnn	iunn7
 iűnn	iunn9
+
+iuⁿ iunnn1
+iúⁿ iunnn2
+iùⁿ iunnn3
+iûⁿ iunnn5
+iǔⁿ iunnn6
+iūⁿ iunnn7
+iűⁿ iunnn9
+
 iuh	iuh4
 iu̍h	iuh8
 iu̍h	iuhh
+
 iunnh	iunnh4
 iu̍nnh	iunnh8
 iu̍nnh	iunnhh
+
+iuhⁿ	iuhnn4
+iu̍hⁿ	iuhnn8
+
 o	o1
 ó	o2
 ò	o3
@@ -283,6 +403,7 @@ o̍	o8
 oh	oh4
 o̍h	oh8
 o̍h	ohh
+
 oo	oo1
 óo	oo2
 òo	oo3
@@ -290,6 +411,16 @@ oo	oo1
 ǒo	oo6
 ōo	oo7
 őo	oo9
+
+o͘	ooo1
+ó͘	ooo2
+ò͘	ooo3
+ô͘	ooo5
+ǒ͘	ooo6
+ō͘	ooo7
+o̍͘	ooo8
+ő͘	ooo9
+
 onn	onn1
 ónn	onn2
 ònn	onn3
@@ -297,6 +428,15 @@ onn	onn1
 ǒnn	onn6
 ōnn	onn7
 őnn	onn9
+
+oⁿ	onnn1
+óⁿ	onnn2
+òⁿ	onnn3
+ôⁿ	onnn5
+ǒⁿ	onnn6
+ōⁿ	onnn7
+őⁿ	onnn9
+
 om	om1
 óm	om2
 òm	om3
@@ -317,12 +457,21 @@ o̍p	opp
 ok	ok4
 o̍k	ok8
 o̍k	okk
+
 ooh	ooh4
 o̍oh	ooh8
 o̍oh	oohh
+
+o͘h	oooh1
+o͘h̍	oooh8
+
 onnh	onnh4
 o̍nnh	onnh8
 o̍nnh	onnhh
+
+ohⁿ	ohnn4
+o̍hⁿ	ohnn8
+
 u	u1
 ú	u2
 ù	u3
@@ -344,6 +493,7 @@ u̍t	utt
 uh	uh4
 u̍h	uh8
 u̍h	uhh
+
 ua	ua1
 uá	ua2
 uà	ua3
@@ -351,6 +501,7 @@ uâ	ua5
 uǎ	ua6
 uā	ua7
 ua̋	ua9
+
 uann	uann1
 uánn	uann2
 uànn	uann3
@@ -358,6 +509,15 @@ uânn	uann5
 uǎnn	uann6
 uānn	uann7
 ua̋nn	uann9
+
+uaⁿ	uannn1
+uáⁿ	uannn2
+uàⁿ	uannn3
+uâⁿ	uannn5
+uǎⁿ	uannn6
+uāⁿ	uannn7
+ua̋ⁿ	uannn9
+
 uan	uan1
 uán	uan2
 uàn	uan3
@@ -378,6 +538,7 @@ uâi	uai5
 uǎi	uai6
 uāi	uai7
 ua̋i	uai9
+
 uainn	uainn1
 uáinn	uainn2
 uàinn	uainn3
@@ -385,6 +546,15 @@ uâinn	uainn5
 uǎinn	uainn6
 uāinn	uainn7
 ua̋inn	uainn9
+
+uaiⁿ	uainnn1
+uáiⁿ	uainnn2
+uàiⁿ	uainnn3
+uâiⁿ	uainnn5
+uǎiⁿ	uainnn6
+uāiⁿ	uainnn7
+ua̋iⁿ	uainnn9
+
 ue	ue1
 ué	ue2
 uè	ue3
@@ -395,6 +565,79 @@ ue̋	ue9
 ueh	ueh4
 ue̍h	ueh8
 ue̍h	uehh
+
+oa	oa1
+oá	oa2
+oà	oa3
+oâ	oa5
+oǎ	oa6
+oā	oa7
+oa̋	oa9
+
+oann	oann1
+oánn	oann2
+oànn	oann3
+oânn	oann5
+oǎnn	oann6
+oānn	oann7
+oa̋nn	oann9
+
+oaⁿ	oannn1
+oáⁿ	oannn2
+oàⁿ	oannn3
+oâⁿ	oannn5
+oǎⁿ	oannn6
+oāⁿ	oannn7
+oa̋ⁿ	oannn9
+
+oan	oan1
+oán	oan2
+oàn	oan3
+oân	oan5
+oǎn	oan6
+oān	oan7
+oa̋n	oan9
+oat	oat4
+oa̍t	oat8
+oa̍t	oatt
+oah	oah4
+oa̍h	oah8
+oa̍h	oahh
+oai	oai1
+oái	oai2
+oài	oai3
+oâi	oai5
+oǎi	oai6
+oāi	oai7
+oa̋i	oai9
+
+oainn	oainn1
+oáinn	oainn2
+oàinn	oainn3
+oâinn	oainn5
+oǎinn	oainn6
+oāinn	oainn7
+oa̋inn	oainn9
+
+oaiⁿ	oainnn1
+oáiⁿ	oainnn2
+oàiⁿ	oainnn3
+oâiⁿ	oainnn5
+oǎiⁿ	oainnn6
+oāiⁿ	oainnn7
+oa̋iⁿ	oainnn9
+
+oe	oe1
+oé	oe2
+oè	oe3
+oê	oe5
+oě	oe6
+oē	oe7
+oe̋	oe9
+oeh	oeh4
+oe̍h	oeh8
+oe̍h	oehh
+
 ui	ui1
 uí	ui2
 uì	ui3
@@ -431,6 +674,8 @@ n̋g	ng9
 ngh	ngh4
 n̍gh	ngh8
 n̍gh	nghh
+
+
 A	A1
 Á	A2
 À	A3
@@ -439,6 +684,7 @@ A	A1
 Ā	A7
 A̍	A8
 A̋	A9
+
 Ann	Ann1
 Ánn	Ann2
 Ànn	Ann3
@@ -446,6 +692,15 @@ Ann	Ann1
 Ǎnn	Ann6
 Ānn	Ann7
 A̋nn	Ann9
+
+Aⁿ	Annn1
+Áⁿ	Annn2
+Àⁿ	Annn3
+Âⁿ	Annn5
+Ǎⁿ	Annn6
+Āⁿ	Annn7
+A̋ⁿ	Annn9
+
 Am	Am1
 Ám	Am2
 Àm	Am3
@@ -479,9 +734,14 @@ A̍k	Akk
 Ah	Ah4
 A̍h	Ah8
 A̍h	Ahh
+
 Annh	Annh4
 A̍nnh	Annh8
 A̍nnh	Annhh
+
+Ahⁿ	Ahnn4
+A̍hⁿ	Ahnn8
+
 Ai	Ai1
 Ái	Ai2
 Ài	Ai3
@@ -489,6 +749,7 @@ Ai	Ai1
 Ǎi	Ai6
 Āi	Ai7
 A̋i	Ai9
+
 Ainn	Ainn1
 Áinn	Ainn2
 Àinn	Ainn3
@@ -496,12 +757,26 @@ Ainn	Ainn1
 Ǎinn	Ainn6
 Āinn	Ainn7
 A̋inn	Ainn9
+
+Aiⁿ	Ainnn1
+Áiⁿ	Ainnn2
+Àiⁿ	Ainnn3
+Âiⁿ	Ainnn5
+Ǎiⁿ	Ainnn6
+Āiⁿ	Ainnn7
+A̋iⁿ	Ainnn9
+
 Aih	Aih4
 A̍ih	Aih8
 A̍ih	Aihh
+
 Ainnh	Ainnh4
 A̍innh	Ainnh8
 A̍innh	Ainnhh
+
+Aihⁿ	Aihnn4
+A̍ihⁿ	Aihnn8
+
 Au	Au1
 Áu	Au2
 Àu	Au3
@@ -520,6 +795,7 @@ E	E1
 Ē	E7
 E̍	E8
 E̋	E9
+
 Enn	Enn1
 Énn	Enn2
 Ènn	Enn3
@@ -527,12 +803,38 @@ Enn	Enn1
 Ěnn	Enn6
 Ēnn	Enn7
 E̋nn	Enn9
+
+Eⁿ	Ennn1
+Éⁿ	Ennn2
+Èⁿ	Ennn3
+Êⁿ	Ennn5
+Ěⁿ	Ennn6
+Ēⁿ	Ennn7
+E̋ⁿ	Ennn9
+
+Eng	Eng1
+Éng	Eng2
+Èng	Eng3
+Êng	Eng5
+Ěng	Eng6
+Ēng	Eng7
+E̋ng	Eng9
+
 Eh	Eh4
 E̍h	Eh8
 E̍h	Ehh
+
+Ek	Ek4
+E̍k	Ek8
+E̍k	Ekk
+
 Ennh	Ennh4
 E̍nnh	Ennh8
 E̍nnh	Ennhh
+
+Ehⁿ	Ehnn4
+E̍hⁿ	Ehnn8
+
 I	I1
 Í	I2
 Ì	I3
@@ -541,6 +843,7 @@ I	I1
 Ī	I7
 I̍	I8
 I̋	I9
+
 Inn	Inn1
 Ínn	Inn2
 Ìnn	Inn3
@@ -548,6 +851,15 @@ Inn	Inn1
 Ǐnn	Inn6
 Īnn	Inn7
 I̋nn	Inn9
+
+Iⁿ	Innn1
+Íⁿ	Innn2
+Ìⁿ	Innn3
+Îⁿ	Innn5
+Ǐⁿ	Innn6
+Īⁿ	Innn7
+I̋ⁿ	Innn9
+
 Im	Im1
 Ím	Im2
 Ìm	Im3
@@ -581,9 +893,14 @@ I̍k	Ikk
 Ih	Ih4
 I̍h	Ih8
 I̍h	Ihh
+
 Innh	Innh4
 I̍nnh	Innh8
 I̍nnh	Innhh
+
+Ihⁿ	Ihnn4
+I̍hⁿ	Ihnn8
+
 Ia	Ia1
 Iá	Ia2
 Ià	Ia3
@@ -591,6 +908,7 @@ Iâ	Ia5
 Iǎ	Ia6
 Iā	Ia7
 Ia̋	Ia9
+
 Iann	Iann1
 Iánn	Iann2
 Iànn	Iann3
@@ -598,6 +916,15 @@ Iânn	Iann5
 Iǎnn	Iann6
 Iānn	Iann7
 Ia̋nn	Iann9
+
+Iaⁿ	Iannn1
+Iáⁿ	Iannn2
+Iàⁿ	Iannn3
+Iâⁿ	Iannn5
+Iǎⁿ	Iannn6
+Iāⁿ	Iannn7
+Ia̋ⁿ	Iannn9
+
 Iam	Iam1
 Iám	Iam2
 Iàm	Iam3
@@ -631,9 +958,14 @@ Ia̍k	Iakk
 Iah	Iah4
 Ia̍h	Iah8
 Ia̍h	Iahh
+
 Iannh	Iannh4
 Ia̍nnh	Iannh8
 Ia̍nnh	Iannhh
+
+Iahⁿ	Iahnn4
+Ia̍hⁿ	Iahnn8
+
 Iau	Iau1
 Iáu	Iau2
 Iàu	Iau3
@@ -641,6 +973,7 @@ Iâu	Iau5
 Iǎu	Iau6
 Iāu	Iau7
 Ia̋u	Iau9
+
 Iaunn	Iaunn1
 Iáunn	Iaunn2
 Iàunn	Iaunn3
@@ -648,6 +981,15 @@ Iâunn	Iaunn5
 Iǎunn	Iaunn6
 Iāunn	Iaunn7
 Ia̋unn	Iaunn9
+
+Iauⁿ	Iaunnn1
+Iáuⁿ	Iaunnn2
+Iàuⁿ	Iaunnn3
+Iâuⁿ	Iaunnn5
+Iǎuⁿ	Iaunnn6
+Iāuⁿ	Iaunnn7
+Ia̋uⁿ	Iaunnn9
+
 Iauh	Iauh4
 Ia̍uh	Iauh8
 Io	Io1
@@ -677,6 +1019,7 @@ Iû	Iu5
 Iǔ	Iu6
 Iū	Iu7
 Iű	Iu9
+
 Iunn	Iunn1
 Iúnn	Iunn2
 Iùnn	Iunn3
@@ -684,12 +1027,26 @@ Iûnn	Iunn5
 Iǔnn	Iunn6
 Iūnn	Iunn7
 Iűnn	Iunn9
+
+Iuⁿ	Iunnn1
+Iúⁿ	Iunnn2
+Iùⁿ	Iunnn3
+Iûⁿ	Iunnn5
+Iǔⁿ	Iunnn6
+Iūⁿ	Iunnn7
+Iűⁿ	Iunnn9
+
 Iuh	Iuh4
 Iu̍h	Iuh8
 Iu̍h	Iuhh
+
 Iunnh	Iunnh4
 Iu̍nnh	Iunnh8
 Iu̍nnh	Iunnhh
+
+Iuhⁿ	Iuhnn4
+Iu̍hⁿ	Iuhnn8
+
 O	O1
 Ó	O2
 Ò	O3
@@ -698,9 +1055,11 @@ O	O1
 Ō	O7
 O̍	O8
 Ő	O9
+
 Oh	Oh4
 O̍h	Oh8
 O̍h	Ohh
+
 Oo	Oo1
 Óo	Oo2
 Òo	Oo3
@@ -708,6 +1067,16 @@ Oo	Oo1
 Ǒo	Oo6
 Ōo	Oo7
 Őo	Oo9
+
+O͘	Ooo1
+Ó͘	Ooo2
+Ò͘	Ooo3
+Ô͘	Ooo5
+Ǒ͘	Ooo6
+Ō͘	Ooo7
+O̍͘	Ooo8
+Ő͘	Ooo9
+
 Onn	Onn1
 Ónn	Onn2
 Ònn	Onn3
@@ -715,6 +1084,15 @@ Onn	Onn1
 Ǒnn	Onn6
 Ōnn	Onn7
 Őnn	Onn9
+
+Oⁿ	Onnn1
+Óⁿ	Onnn2
+Òⁿ	Onnn3
+Ôⁿ	Onnn5
+Ǒⁿ	Onnn6
+Ōⁿ	Onnn7
+Őⁿ	Onnn9
+
 Om	Om1
 Óm	Om2
 Òm	Om3
@@ -738,9 +1116,14 @@ O̍k	Okk
 Ooh	Ooh4
 O̍oh	Ooh8
 O̍oh	Oohh
+
 Onnh	Onnh4
 O̍nnh	Onnh8
 O̍nnh	Onnhh
+
+Ohⁿ	Ohnn4
+O̍hⁿ	Ohnn8
+
 U	U1
 Ú	U2
 Ù	U3
@@ -762,6 +1145,7 @@ U̍t	Utt
 Uh	Uh4
 U̍h	Uh8
 U̍h	Uhh
+
 Ua	Ua1
 Uá	Ua2
 Uà	Ua3
@@ -769,6 +1153,7 @@ Uâ	Ua5
 Uǎ	Ua6
 Uā	Ua7
 Ua̋	Ua9
+
 Uann	Uann1
 Uánn	Uann2
 Uànn	Uann3
@@ -776,6 +1161,15 @@ Uânn	Uann5
 Uǎnn	Uann6
 Uānn	Uann7
 Ua̋nn	Uann9
+
+Uaⁿ	Uannn1
+Uáⁿ	Uannn2
+Uàⁿ	Uannn3
+Uâⁿ	Uannn5
+Uǎⁿ	Uannn6
+Uāⁿ	Uannn7
+Ua̋ⁿ	Uannn9
+
 Uan	Uan1
 Uán	Uan2
 Uàn	Uan3
@@ -796,6 +1190,7 @@ Uâi	Uai5
 Uǎi	Uai6
 Uāi	Uai7
 Ua̋i	Uai9
+
 Uainn	Uainn1
 Uáinn	Uainn2
 Uàinn	Uainn3
@@ -803,6 +1198,15 @@ Uâinn	Uainn5
 Uǎinn	Uainn6
 Uāinn	Uainn7
 Ua̋inn	Uainn9
+
+Uaiⁿ	Uainnn1
+Uáiⁿ	Uainnn2
+Uàiⁿ	Uainnn3
+Uâiⁿ	Uainnn5
+Uǎiⁿ	Uainnn6
+Uāiⁿ	Uainnn7
+Ua̋iⁿ	Uainnn9
+
 Ue	Ue1
 Ué	Ue2
 Uè	Ue3
@@ -813,6 +1217,79 @@ Ue̋	Ue9
 Ueh	Ueh4
 Ue̍h	Ueh8
 Ue̍h	Uehh
+
+Oa	Oa1
+Oá	Oa2
+Oà	Oa3
+Oâ	Oa5
+Oǎ	Oa6
+Oā	Oa7
+Oa̋	Oa9
+
+Oann	Oann1
+Oánn	Oann2
+Oànn	Oann3
+Oânn	Oann5
+Oǎnn	Oann6
+Oānn	Oann7
+Oa̋nn	Oann9
+
+Oaⁿ	Oannn1
+Oáⁿ	Oannn2
+Oàⁿ	Oannn3
+Oâⁿ	Oannn5
+Oǎⁿ	Oannn6
+Oāⁿ	Oannn7
+Oa̋ⁿ	Oannn9
+
+Oan	Oan1
+Oán	Oan2
+Oàn	Oan3
+Oân	Oan5
+Oǎn	Oan6
+Oān	Oan7
+Oa̋n	Oan9
+Oat	Oat4
+Oa̍t	Oat8
+Oa̍t	Oatt
+Oah	Oah4
+Oa̍h	Oah8
+Oa̍h	Oahh
+Oai	Oai1
+Oái	Oai2
+Oài	Oai3
+Oâi	Oai5
+Oǎi	Oai6
+Oāi	Oai7
+Oa̋i	Oai9
+
+Oainn	Oainn1
+Oáinn	Oainn2
+Oàinn	Oainn3
+Oâinn	Oainn5
+Oǎinn	Oainn6
+Oāinn	Oainn7
+Oa̋inn	Oainn9
+
+Oaiⁿ	Oainnn1
+Oáiⁿ	Oainnn2
+Oàiⁿ	Oainnn3
+Oâiⁿ	Oainnn5
+Oǎiⁿ	Oainnn6
+Oāiⁿ	Oainnn7
+Oa̋iⁿ	Oainnn9
+
+Oe	Oe1
+Oé	Oe2
+Oè	Oe3
+Oê	Oe5
+Oě	Oe6
+Oē	Oe7
+Oe̋	Oe9
+Oeh	Oeh4
+Oe̍h	Oeh8
+Oe̍h	Oehh
+
 Ui	Ui1
 Uí	Ui2
 Uì	Ui3
@@ -1006,12 +1483,27 @@ Mǒo	Moo6
 Mōo	Moo7
 Mőo	Moo9
 
-mooh	mooh4
-mo̍oh	mooh8
-mo̍oh	moohh
-Mooh	Mooh4
-Mo̍oh	Mooh8
-Mo̍oh	Moohh
+mo͘	mooo1
+mó͘	mooo2
+mò͘	mooo3
+mô͘	mooo5
+mǒ͘	mooo6
+mō͘	mooo7
+mő͘	mooo9
+Mo͘	Mooo1
+Mó͘	Mooo2
+Mò͘	Mooo3
+Mô͘	Mooo5
+Mǒ͘	Mooo6
+Mō͘	Mooo7
+Mő͘	Mooo9
+
+mo͘h	moooh4
+mo̍͘h	mooh8
+mo̍͘h	moohh
+Mo͘h	Mooh4
+Mo̍͘h	Mooh8
+Mo̍͘h	Moohh
 
 mua	mua1
 muá	mua2
@@ -1221,6 +1713,21 @@ Nǒo	Noo6
 Nōo	Noo7
 Nőo	Noo9
 
+no͘	nooo1
+nó͘	nooo2
+nò͘	nooo3
+nô͘	nooo5
+nǒ͘	nooo6
+nō͘	nooo7
+nő͘	nooo9
+No͘	Nooo1
+Nó͘	Nooo2
+Nò͘	Nooo3
+Nô͘	Nooo5
+Nǒ͘	Nooo6
+Nō͘	Nooo7
+Nő͘	Nooo9
+
 nua	nua1
 nuá	nua2
 nuà	nua3
@@ -1354,3 +1861,18 @@ Ngôo	Ngoo5
 Ngǒo	Ngoo6
 Ngōo	Ngoo7
 Ngőo	Ngoo9
+
+ngo͘	ngooo1
+ngó͘	ngooo2
+ngò͘	ngooo3
+ngô͘	ngooo5
+ngǒ͘	ngooo6
+ngō͘	ngooo7
+ngő͘	ngooo9
+Ngo͘	Ngooo1
+Ngó͘	Ngooo2
+Ngò͘	Ngooo3
+Ngô͘	Ngooo5
+Ngǒ͘	Ngooo6
+Ngō͘	Ngooo7
+Ngő͘	Ngooo9
